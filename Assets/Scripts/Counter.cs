@@ -15,7 +15,6 @@ public class Counter : MonoBehaviour
 
     private void IncreaseCount()
     {
-        Debug.Log("Hit");
         _count++;
 
         if (_count % 100 == 0)
